@@ -16,7 +16,7 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "✅ Məni öz qrubuna əlavə et ✅", url=f"https://t.me/LegendMusic_Robot?startgroup=true"
+                        "✅ Məni öz qrubuna əlavə et ✅", url=f"https://t.me/LegendMucisBot?startgroup=true"
                     )
                 ],
                 [
@@ -115,7 +115,7 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "✅ Məni öz qrubuna əlavə et ✅", url=f"https://t.me/LegendMusic_Robot?startgroup=true"
+                        "✅ Məni öz qrubuna əlavə et ✅", url=f"https://t.me/LegendMucisBot?startgroup=true"
                     )
                 ],
                 [
