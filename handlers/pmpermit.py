@@ -18,7 +18,7 @@ async def pmPermit(client: USER, message: Message):
                 return
             await USER.send_message(
                 message.chat.id,
-                "[Developer](https://t.me/o2o_GenCeLi) 🇦🇿\n",
+                "Salam, Mən @LegendMucisBot - un Asistanıyam [Developer](https://t.me/ElnurXv) 🇦🇿\n",
             )
             return
  
@@ -32,11 +32,11 @@ async def bye(client: Client, message: Message):
         queryy = text[1]
         if queryy == "on":
             PMSET = True
-            await message.reply_text("PM İzin Etkin")
+            await message.reply_text("PM İcazə Verildi")
             return
         if queryy == "off":
             PMSET = None
-            await message.reply_text("PM İzin Devre Dışı")
+            await message.reply_text("PM İzacə Verilmir")
             return
 
 @USER.on_message(filters.text & filters.private & filters.me)        
@@ -44,7 +44,7 @@ async def autopmPermiat(client: USER, message: Message):
     chat_id = message.chat.id
     if not chat_id in pchats:
         pchats.append(chat_id)
-        await message.reply_text("**Hey Userbot Yazışması artık başarılı.**")
+        await message.reply_text("**Hey UserBot Yazışmaqa Başladı.**")
         return
     message.continue_propagation()    
     
@@ -53,7 +53,7 @@ async def pmPermiat(client: USER, message: Message):
     chat_id = message.chat.id
     if not chat_id in pchats:
         pchats.append(chat_id)
-        await message.reply_text("Yaklaşık olarak PM")
+        await message.reply_text("Təxminən PM")
         return
     message.continue_propagation()    
     
@@ -63,6 +63,6 @@ async def rmpmPermiat(client: USER, message: Message):
     chat_id = message.chat.id
     if chat_id in pchats:
         pchats.remove(chat_id)
-        await message.reply_text("Bu şekilde PM")
+        await message.reply_text("Bu Şəkildə PM")
         return
     message.continue_propagation()
