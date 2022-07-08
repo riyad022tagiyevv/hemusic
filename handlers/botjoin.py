@@ -24,7 +24,7 @@ async def addchannel(client, message):
 
     try:
         await USER.join_chat(invitelink)
-        await USER.send_message(message.chat.id,"Senin İsteğin Üzerine Geldim")
+        await USER.send_message(message.chat.id,"Sənin istəyinə görə gəldim")
     except UserAlreadyParticipant:
         await message.reply_text(
             "<b>Asistan onsuzda qrupda var🙄</b>",
