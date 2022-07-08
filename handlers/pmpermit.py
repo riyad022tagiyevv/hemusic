@@ -18,7 +18,7 @@ async def pmPermit(client: USER, message: Message):
                 return
             await USER.send_message(
                 message.chat.id,
-                "Salam, Mən @LegendMucisBot - un Asistanıyam [Developer](https://t.me/ElnurXv) 🇦🇿\n",
+                "Salam, Mən @LegendMucisBot - un Asistanıyam [Developer](https://t.me/ElnurGenCeLi) 🇦🇿\n",
             )
             return
  
