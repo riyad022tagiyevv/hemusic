@@ -22,7 +22,7 @@ ACTV_CALLS = []
 async def durdur(_, message: Message):
     await callsmusic.pytgcalls.pause_stream(message.chat.id)
     a = await message.reply_text("▶️ **🎧 Səsli söhbət dayandırılıb**")
-    await sleep(3)
+    await sleep(900)
     await a.delete()
     
 
@@ -33,7 +33,7 @@ async def durdur(_, message: Message):
 async def devam(_, message: Message):
     await callsmusic.pytgcalls.resume_stream(message.chat.id)
     a = await message.reply_text("⏸ **🎧 Səsli söhbət dayandırılıb**")
-    await sleep(3)
+    await sleep(900)
     await a.delete()
     
 
@@ -67,7 +67,7 @@ async def atla(_, message: Message):
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALLS:
         a = await message.reply_text("Mahnı keçmək üçün heçnə yoxdu!")
-        await sleep(3)
+        await sleep(900)
         await a.delete()
     else:
         queues.task_done(chat_id)
@@ -85,7 +85,7 @@ async def atla(_, message: Message):
             )
             
         a = await message.reply_text("➡️ **Sıradaki Mahniya Geçid Edildi.**")
-        await sleep(3)
+        await sleep(900)
         await a.delete()
 
 # Yetki Vermek için (ver) Yetki almak için (al) komutlarını ekledim.
