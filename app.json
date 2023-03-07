@@ -2,7 +2,7 @@
   "name": "Efsane Music",
   "description": "Telegram'ınızın Grup Sesli Sohbeti'nde şarkı çalmak için Açık Kaynaklı bot. Powered by Mehmetbaba55.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/Cinarrrddqq/LegendMucis",
+  "repository": "https://github.com/riyad022tagiyevv/hemusic",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
@@ -37,9 +37,9 @@
       "required": true
     },
     "BOT_OWNER": {
-      "description": "o2o_GenCeLi",
+      "description": "RiyadAndMe",
       "required": true,
-      "value": "o2o_GenCeLi"
+      "value": "RiyadAndMe"
     },
     "DURATION_LIMIT": {
       "description": "İndirmeler için en fazla ses süresi sınırı (minutes).",
