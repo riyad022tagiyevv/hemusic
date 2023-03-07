@@ -198,7 +198,7 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
                       [
             [
-                InlineKeyboardButton("🥂 Söhbət Qrupu", url=f"https://t.me/Riyaddlogg"),
+                InlineKeyboardButton("🥂 Söhbət Qrupu", url=f"https://t.me/sohbet_no1"),
                 InlineKeyboardButton("📣 Rəsmi Kanalı", url=f"https://t.me/RiyaddBlogg"),
             ],[
                 InlineKeyboardButton("🗑️ Menyunu Bağla", callback_data="cls"),
@@ -263,7 +263,7 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
                       [
             [
-                InlineKeyboardButton("🥂 Söhbət Qrupu", url=f"https://t.me/RiyaddBlogg"),
+                InlineKeyboardButton("🥂 Söhbət Qrupu", url=f"https://t.me/sohbet_no1"),
                 InlineKeyboardButton("📣 Rəsmi Kanalı", url=f"https://t.me/RiyaddBlogg"),
             ],[
                 InlineKeyboardButton("🗑️ Menyunu Bağla", callback_data="cls"),
