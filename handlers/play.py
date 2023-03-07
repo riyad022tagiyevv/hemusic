@@ -127,13 +127,13 @@ async def play(_, message: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "**Assistant Account [𝗟 Σ 𝗚 Σ 𝗡 𝗗 ᵃˢⁱˢᵗᵃⁿᵗ](https://t.me/LegendAsistant) Uğurla Qoşuldu.\n\nİndi Musiqi Başlayır**")
+                        message.chat.id, "**Assistant Account [N¹ ᵃˢⁱˢᵗᵃⁿᵗ](https://t.me/N1Asistant) Uğurla Qoşuldu.\n\nİndi Musiqi Başlayır**")
 
                 except UserAlreadyParticipant:
                     pass
                 except Exception:
                     await lel.edit(
-                        f"Assistant ın banını açın\nİstifadəçi adı: @LegendAsistant\nKöməkçi ID: `5342770432`")
+                        f"Assistant ın banını açın\nİstifadəçi adı: @N1Asistant\nKöməkçi ID: `5342770432`")
     try:
         await USER.get_chat(chid)
     except:
@@ -198,8 +198,8 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
                       [
             [
-                InlineKeyboardButton("🥂 Blog Kanalı", url=f"https://t.me/ElegantBlog"),
-                InlineKeyboardButton("📣 Rəsmi Kanalı", url=f"https://t.me/SecretMMC"),
+                InlineKeyboardButton("🥂 Blog Kanalı", url=f"https://t.me/RiyaddBlogg"),
+                InlineKeyboardButton("📣 Rəsmi Kanalı", url=f"https://t.me/RiyaddBlogg"),
             ],[
                 InlineKeyboardButton("🗑️ Menyunu Bağla", callback_data="cls"),
             ],
@@ -263,8 +263,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
                       [
             [
-                InlineKeyboardButton("🥂 Blog Kanalı", url=f"https://t.me/ElegantBlog"),
-                InlineKeyboardButton("📣 Rəsmi Kanalı", url=f"https://t.me/SecretMMC"),
+                InlineKeyboardButton("🥂 Blog Kanalı", url=f"https://t.me/RiyaddBlogg"),
+                InlineKeyboardButton("📣 Rəsmi Kanalı", url=f"https://t.me/RiyaddBlogg"),
             ],[
                 InlineKeyboardButton("🗑️ Menyunu Bağla", callback_data="cls"),
             ],
